@@ -73,7 +73,6 @@ body {
   height: 120px;
   animation: spin 2s linear infinite;
   margin: 20px auto;
-  display: none;
 }
 
 @keyframes spin {
