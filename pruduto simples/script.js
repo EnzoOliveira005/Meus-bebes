@@ -42,6 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const productList = document.getElementById("product-list");
   const filterSelect = document.getElementById("filter");
 
+  // Exibir o loader até que os produtos sejam carregados
+  loader.style.display = "block";
+
   // Simular um carregamento com atraso
   setTimeout(() => {
     loader.style.display = "none";
